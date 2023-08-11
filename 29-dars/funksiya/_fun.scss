@@ -1,0 +1,12 @@
+
+
+@mixin fon($color,$size,$wizth,$spacing){
+
+    color: $color;
+font-family: Inter;
+font-size: $size;
+font-style: normal;
+font-weight: wizth;
+line-height: 24px;
+letter-spacing: $spacing;
+}

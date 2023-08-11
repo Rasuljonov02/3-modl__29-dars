@@ -1,0 +1,205 @@
+// hedr
+.tepa {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 20px;
+  span {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .bordre {
+    border-top-color: #1458dd;
+  }
+  a {
+    height: 75px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    @include fon(#2a303c, 14px, 400, -0.084);
+  }
+
+  p {
+    @include fon(#9aa6ac, 14px, 400, -0.084);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 1px solid #dde2e4;
+    background: #fff;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    width: 180px;
+  }
+}
+// hedr tugadi
+
+.profek {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 20px;
+
+  p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  span {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+    h3 {
+      @include fon(#252c32, 36px, 700, -0.792);
+    }
+    p {
+      @include fon(#5b6875, 12px, 400, -0);
+    }
+  }
+  .qator {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    h6 {
+      border-radius: 6px;
+      background: #1458dd;
+
+      box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.06), 0px 0px 0px 1px rgba(60, 66, 87, 0.08), 0px 2px 5px 0px rgba(60, 66, 87, 0.04);
+      padding: 8px 25px;
+      @include fon(#f6f8f9, 14px, 600, -0.084);
+    }
+  }
+}
+.met {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 20px;
+  align-items: center;
+  span {
+    display: flex;
+    gap: 1rem;
+  }
+  a {
+    text-decoration: none;
+    display: flex;
+
+    @include fon(#252c32, 14px, 400, -0.084);
+  }
+  p {
+    display: flex;
+    align-items: center;
+    grid: 8px;
+    padding: 5px 10px;
+    width: 150px;
+    border-radius: 6px;
+    border: 1px solid #dde2e4;
+    background: #fff;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    @include fon(#9aa6ac, 14px, 400, -0.084);
+  }
+}
+
+// copy
+.todo {
+  background-color: #d1d5d8;
+  width: 300px;
+  display: flex;
+  height: auto;
+  padding: 20px;
+  gap: 10px;
+  flex-direction: column;
+  .p {
+    width: 270px;
+  }
+}
+.box5 {
+  display: flex;
+
+  justify-content: space-between;
+  span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}
+// kopit js
+.files {
+  gap: 15px;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  background: #fff;
+
+  /* Shadow/Shadow__XSmall */
+  box-shadow: 0px 5px 3px -2px rgba(0, 0, 0, 0.02), 0px 3px 2px -2px rgba(0, 0, 0, 0.06);
+  span {
+    display: flex;
+    justify-content: space-between;
+  }
+  .kok {
+    @include fon(#4f9c20, 12px, 500, 0);
+    border-radius: 4px;
+    background: #ebfae2;
+    padding: 5px 15px;
+  }
+  .o {
+    display: flex;
+    gap: 8px;
+  }
+
+  .qizil {
+    @include fon(#ec5962, 12px, 500, 0);
+    border-radius: 4px;
+    background: #fdf2f2;
+    padding: 8px 25px;
+  }
+  .c {
+    display: flex;
+    gap: 9px;
+  }
+  p {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+}
+
+.cart {
+  gap: 15px;
+  padding: 15px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  background: #fff;
+
+  /* Shadow/Shadow__XSmall */
+  box-shadow: 0px 5px 3px -2px rgba(0, 0, 0, 0.02), 0px 3px 2px -2px rgba(0, 0, 0, 0.06);
+  .yash {
+    @include fon(#3069fe, 12px, 500, 0);
+  }
+  p {
+    @include fon(#252c32, 14px, 400, -0.084);
+  }
+  span {
+    display: flex;
+    justify-content: space-between;
+    h4 {
+      @include fon(#1a1919, 16px, 500, 0);
+    }
+    p {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+.backlog {
+  display: flex;
+  justify-content: space-evenly;
+}
